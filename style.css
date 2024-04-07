@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  padding: 0
+}
+
+* {
+  font-family: Roboto, arial, sans-serif;
+}
+
+
+.searchIcons {
+  width: 20px;
+  height: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.googleLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.searchBarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border: 1px solid #dfe1e5;
+  border-radius: 25px;
+  width: 40%;
+  padding: 1%;
+  transition: all 0.3s ease;
+}
+
+.searchBarContainer:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.searchIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #dfe1e5;
+}
+
+.searchBar:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+
+.navBarLeft {
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+.navBarLeft ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navBarLeft ul li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.navBarLeft ul li a {
+  text-decoration: none;
+}
+
+.navBarRight {
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+.navBarRight ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navBarRight ul li a {
+  text-decoration: none;
+}
+
+.navBarRight ul li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.searchBarInput {
+  border: none;
+  outline: none;
+  width: 80%;
+}
+
+.googleSearchButton {
+  padding-top: 18px;
+  padding: 18px;
+}
+
+.googleSearch {
+  border: none;
+  padding: 0 16px;
+  height: 36px;
+  margin: 11px 4px;
+  transition: all 0.3s ease;
+  background-color: #f8f9fa;
+}
+
+.googleSearch:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.luckyButton {
+  border: none;
+  padding: 0 16px;
+  height: 36px;
+  margin: 11px 4px;
+  transition: all 0.3s ease;
+  background-color: #f8f9fa;
+}
+
+.luckyButton:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 40px);
+  align-items: center;
+  background-color: #f2f2f2;
+  ;
+  padding: 0px 20px;
+
+}
+
+.leftFooter {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.footerContainer a:hover {
+  text-decoration: underline;
+}
+
+.bannerGoogle {
+  align-content: center;
+  min-width: 30%;
+}
+
+.leaf {
+  height: 14px;
+  margin-right: 6px
+}
+
+.footerLinks {
+  padding: 15px;
+  white-space: nowrap;
+}
+
+.middleBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 15%;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 767px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .searchBarContainer {
+    width: 90%;
+  }
+}
