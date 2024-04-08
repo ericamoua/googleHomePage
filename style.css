@@ -165,7 +165,6 @@ footer a {
   width: calc(100% - 40px);
   align-items: center;
   background-color: #f2f2f2;
-  ;
   padding: 0px 20px;
 
 }
@@ -173,7 +172,11 @@ footer a {
 .leftFooter {
   display: inline-block;
   padding: 10px;
-  margin-right: 10px;
+  margin: 10px;
+}
+
+.rightFooter {
+  margin: 10px;
 }
 
 .footerContainer a:hover {
@@ -183,6 +186,7 @@ footer a {
 .bannerGoogle {
   align-content: center;
   min-width: 30%;
+  margin: 10px;
 }
 
 .leaf {
@@ -204,7 +208,6 @@ footer a {
   align-items: center;
 }
 
-
 @media screen and (max-width: 767px) {
   .footer {
     display: flex;
@@ -214,5 +217,9 @@ footer a {
 
   .searchBarContainer {
     width: 90%;
+  }
+
+  .footerContainer {
+    flex-direction: column;
   }
 }
